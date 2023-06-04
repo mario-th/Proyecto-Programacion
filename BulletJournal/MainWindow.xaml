@@ -1,0 +1,33 @@
+﻿<Window x:Class="BulletJournal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BulletJournal"
+        mc:Ignorable="d"
+        Height="700" Width="1200">
+
+
+    <Grid Background="#065E98">
+        <Grid Width="150" Height="144.68" VerticalAlignment="Top" HorizontalAlignment="Left" >
+            <Button x:Name="AbrirPaginaCalendario" Content="Calendario" Margin="0,45,0,0" VerticalAlignment="Top" Height="51" Width="102" Click="AbrirPaginaCalendario_Click" Background="#2FA6B0" BorderBrush="#2FA6B0" Foreground="#FFF6F7F7" FontSize="16" HorizontalAlignment="Center"  />
+        </Grid>
+        <Grid Width="150" Height="144" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="0,361,0,0">
+            <Button x:Name="AbrirPaginaHabitos" Content="Habitos" HorizontalAlignment="Center" VerticalAlignment="Center" Height="51" Width="102" Click="AbrirPaginaHabitos_Click" Background="#2FA6B0" BorderBrush="#2FA6B0" Foreground="#FFF6F7F7" FontSize="16" FontWeight="Bold" />
+        </Grid>
+        <Grid Width="150" Height="144.68" VerticalAlignment="Bottom" HorizontalAlignment="Left" >
+            <Button x:Name="AbrirPaginaMoods" Content="Mood" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="102" Click="AbrirPaginaMoods_Click" Background="#2FA6B0" BorderBrush="#2FA6B0" Foreground="#FFF6F7F7" FontSize="16" FontWeight="Bold" />
+        </Grid>
+
+        <Grid Margin="150,0,0,0" >
+
+            <Frame x:Name="mainFrame" />
+
+        </Grid>
+        <Grid Width="150" Height="144" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,177,0,0">
+            <Button x:Name="AbrirPaginaTareas" Content="Tareas" HorizontalAlignment="Center" VerticalAlignment="Center" Height="51" Width="102" Click="AbrirPaginaTareas_Click" Background="#2FA6B0" BorderBrush="#2FA6B0" Foreground="#FFF6F7F7" FontSize="16" FontWeight="Bold" />
+        </Grid>
+
+    </Grid>
+    
+</Window>

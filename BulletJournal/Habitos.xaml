@@ -1,0 +1,51 @@
+﻿<Page x:Class="BulletJournal.Habitos"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BulletJournal"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Habitos">
+
+    <Grid Background="#1D6DAA">
+        <DataGrid Background="#1D6DAA" x:Name="habitGrid" AutoGenerateColumns="False" CanUserAddRows="False">
+            <!-- Configuración de las columnas -->
+            <!-- Por ejemplo, suponiendo que el rango de días va del 1 al 30 -->
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Hábito" Binding="{Binding Nombre}" />
+                <DataGridCheckBoxColumn Header="1" Binding="{Binding Dia1}" />
+                <DataGridCheckBoxColumn Header="2" Binding="{Binding Dia2}" />
+                <DataGridCheckBoxColumn Header="3" Binding="{Binding Dia3}" />
+                <DataGridCheckBoxColumn Header="4" Binding="{Binding Dia4}" />
+                <DataGridCheckBoxColumn Header="5" Binding="{Binding Dia5}" />
+                <DataGridCheckBoxColumn Header="6" Binding="{Binding Dia6}" />
+                <DataGridCheckBoxColumn Header="7" Binding="{Binding Dia7}" />
+                <DataGridCheckBoxColumn Header="8" Binding="{Binding Dia8}" />
+                <DataGridCheckBoxColumn Header="9" Binding="{Binding Dia9}" />
+                <DataGridCheckBoxColumn Header="10" Binding="{Binding Dia10}" />
+                <DataGridCheckBoxColumn Header="11" Binding="{Binding Dia11}" />
+                <DataGridCheckBoxColumn Header="12" Binding="{Binding Dia12}" />
+                <DataGridCheckBoxColumn Header="13" Binding="{Binding Dia13}" />
+                <DataGridCheckBoxColumn Header="14" Binding="{Binding Dia14}" />
+                <DataGridCheckBoxColumn Header="15" Binding="{Binding Dia15}" />
+                <DataGridCheckBoxColumn Header="16" Binding="{Binding Dia16}" />
+                <DataGridCheckBoxColumn Header="17" Binding="{Binding Dia17}" />
+                <DataGridCheckBoxColumn Header="18" Binding="{Binding Dia18}" />
+                <DataGridCheckBoxColumn Header="19" Binding="{Binding Dia19}" />
+                <DataGridCheckBoxColumn Header="20" Binding="{Binding Dia20}" />
+                <DataGridCheckBoxColumn Header="21" Binding="{Binding Dia21}" />
+                <DataGridCheckBoxColumn Header="22" Binding="{Binding Dia22}" />
+                <DataGridCheckBoxColumn Header="23" Binding="{Binding Dia23}" />
+                <DataGridCheckBoxColumn Header="24" Binding="{Binding Dia24}" />
+                <DataGridCheckBoxColumn Header="25" Binding="{Binding Dia25}" />
+                <DataGridCheckBoxColumn Header="26" Binding="{Binding Dia26}" />
+                <DataGridCheckBoxColumn Header="27" Binding="{Binding Dia27}" />
+                <DataGridCheckBoxColumn Header="28" Binding="{Binding Dia28}" />
+                <DataGridCheckBoxColumn Header="29" Binding="{Binding Dia29}" />
+                <DataGridCheckBoxColumn Header="30" Binding="{Binding Dia30}" />
+            </DataGrid.Columns>
+            
+        </DataGrid>
+    </Grid>
+</Page>
